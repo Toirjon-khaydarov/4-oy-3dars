@@ -6,130 +6,106 @@
     <link rel="stylesheet" href="./assets/style/main.css" />
     <title>Document</title>
   </head>
+
   <body>
+    <header>
+      <nav class="nav">
+        <div class="container nav__wrapper">
+          <div class="nav__logo">
+            <img src="./assets/icons/ringo-icon-nav.svg" alt="" />
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__list__item">
+              <a href="">
+                <span>Напрямки</span>
+              </a>
+            </li>
+            <li class="nav__list__item">
+              <a href="">
+                <span>Про компанію</span>
+              </a>
+            </li>
+            <li class="nav__list__item">
+              <a href="">
+                <span>Переваги</span>
+              </a>
+            </li>
+            <li class="nav__list__item">
+              <a href="">
+                <span>Етапи роботи</span>
+              </a>
+            </li>
+          </ul>
+
+          <a href="#" class="nav__social-media">
+            <img
+              src="./assets/icons/nav-instagram-icon.svg"
+              alt="instagram logo"
+            />
+            <img
+              src="./assets/icons/nav_facebook-icon.svg"
+              alt="instagram logo"
+            />
+          </a>
+
+          <div class="nav__number">
+            <p class="nav__number">
+              <img src="./assets/icons/nav-phone-icon.svg" alt="phone logo" />
+              <span>+380 67661 5415</span>
+            </p>
+          </div>
+
+          <button class="nav__burger-btn">
+            <img src="./assets/icons/burger_btn.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="nav__modal">
+          <div class="nav__modal__logo">
+            <div>
+              <img src="./assets/images/logo.svg" alt="" />
+            </div>
+          </div>
+
+          <ul class="nav__modal-links">
+            <li><a href="#">Напрямки</a></li>
+            <li><a href="#">Про компанію</a></li>
+            <li><a href="#">Переваги</a></li>
+            <li><a href="#">Етапи роботи</a></li>
+          </ul>
+
+          <div>
+            <a href="#" class="nav__modal__smm">
+              <img src="./assets/images/instagram.svg" alt="instagram logo" />
+              <img src="./assets/images/facebook.svg" alt="instagram logo" />
+            </a>
+            <div class="nav__modal__number">
+              <img src="./assets/images/phone.svg" alt="phone logo" />
+              <span>+380 67661 5415</span>
+            </div>
+          </div>
+          <button class="nav__modal__btn universal__btn">
+            Обговорити проект
+          </button>
+        </div>
+        <div class="nav__overlay"></div>
+      </nav>
+    </header>
+
     <main>
-      <section class="obgovorimo">
-        <div class="container">
-          <div class="obgovorimo__wrapper">
-            <div class="obgovorimo__card">
-              <h3 class="obgovorimo__title">
-                Обговоримо <br />
-                ваш проект?
-              </h3>
-              <p class="obgovorimo__text">
-                Заповніть форму і найближчим часом ми зв'яжемося з вами!
-              </p>
-              <input
-                class="obgovorimo__inp"
-                type="text"
-                placeholder="Ім'я"
-                name=""
-                id=""
-              />
-              <input
-                class="obgovorimo__inp"
-                type="number"
-                placeholder="Номер телефону"
-                id=""
-              />
-              <div class="obgovorimo__project">
-                <span
-                  ><img src="./assets/icons/obgovorimo-card-img.svg" alt=""
-                /></span>
-                <p>Прикріпити проект</p>
-              </div>
-              <button class="btn">Відправити</button>
-              <div class="obgovorimo__users-info">
-                <span
-                  ><img src="./assets/icons/obgovorimo-card-icon2.svg" alt=""
-                /></span>
-                <p>Даю згоду на оброблення персональних даних</p>
-              </div>
-            </div>
-            <div class="obgovorimo__img">
-              <div class="obgovorimo__beckground"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="roboti">
-        <div class="container">
-          <h3 class="roboti__title">Етапи роботи</h3>
-          <div class="roboti__wrapper">
-            <div class="roboti__card">
-              <p class="roboti__nuber-text">01</p>
-              <img
-                class="roboti__ellipse"
-                src="./assets/icons/Ellipse for roboti.svg"
-                alt=""
-              />
-              <br />
-              <p class="roboti__info">Підписання договору</p>
-              <p>
-                Визначаємось з бюджетом, матеріалами та фурнітурою. Вносимо
-                правки в проект, підписуємо пакет документів.
-              </p>
-            </div>
-            <div class="roboti__card">
-              <p class="roboti__nuber-text">02</p>
-              <img
-                class="roboti__ellipse"
-                src="./assets/icons/Ellipse for roboti.svg"
-                alt=""
-              />
-              <br />
-              <p class="roboti__info">Виготовлення</p>
-              <p>
-                Після підписання договору та визначення термінів, команда Рінго
-                приступає до найцікавішого - виробництва!
-              </p>
-            </div>
-            <div class="roboti__card">
-              <p class="roboti__nuber-text">03</p>
-              <img
-                class="roboti__ellipse"
-                src="./assets/icons/Ellipse for roboti.svg"
-                alt=""
-              />
-              <br />
-              <p class="roboti__info">Встановлення</p>
-              <p>
-                По готовності виробництва починаємо монтаж на обєкті. У
-                домовлений час виконуємо доставку та монтаж.
-              </p>
-            </div>
-            <div class="roboti__card">
-              <p class="roboti__nuber-text">04</p>
-              <img
-                class="roboti__ellipse"
-                src="./assets/icons/Ellipse for roboti.svg"
-                alt=""
-              />
-              <br />
-              <p class="roboti__info">Новосілля</p>
-              <p>
-                По закінченню робимо перевірку та підписуємо акт закінчення
-                робівт.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="partners">
-        <div class="container">
-          <h3 class="partners__title">Наші партнери</h3>
-          <div class="partners__wrapper">
-            <img src="./assets/images/partnori-img1.png" alt="" />
-            <img src="./assets/images/partnori-img2.png" alt="" />
-            <img src="./assets/images/partnori-img3.png" alt="" />
-            <img src="./assets/images/partnori-img4.png" alt="" />
-          </div>
-          <div class="partners__arows">
-            <img src="./assets/icons/arow left-icon.svg" alt="" />
-            <img src="./assets/icons/arow right-icon.svg" alt="" />
-          </div>
+      <section class="hero">
+        <div class="hero__wrapper container">
+          <h1 class="hero__title">
+            виробництво <br />
+            меблів
+          </h1>
+          <p class="hero__info">
+            Ми виконуємо комплексне виготовлення корпусних меблів для житлових і
+            комерційних приміщень, забезпечимо Вас якісним меблевим продуктом
+            власного виробництва.
+          </p>
+          <button class="hero__btn universal__btn">Обговорити проект</button>
         </div>
       </section>
     </main>
